@@ -23,12 +23,12 @@ Follow these steps to set up the project environment:
 
 
 4. **Install Required Packages**
-   pip install playwright  
-   playwright install
-   pip install pyee
-   pip install pytest-playwright 
-   pip install allure-pytest pip install request
-   pip install pytest-asyncio           
+   1.pip install playwright  
+   2.playwright install
+   3.pip install pyee
+   4.pip install pytest-playwright 
+   5.pip install allure-pytest pip install request
+   6.pip install pytest-asyncio           
 
 5. **Running the Tests**
    pytest -v -s --alluredir=report --slowmo 2000 ./automationdemo/test
